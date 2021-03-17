@@ -1,5 +1,20 @@
 # Change Log
 
+## 1.0.19
+
+### Patch Changes
+
+- [`102d6da86`](https://github.com/chakra-ui/chakra-ui/commit/102d6da86d2186b186468b9b6801cb89a217a522)
+  [#3510](https://github.com/chakra-ui/chakra-ui/pull/3510) Thanks
+  [@TimKolberger](https://github.com/TimKolberger)! - Extract all hook props for
+  documentation purposes
+
+- Updated dependencies
+  [[`035d5726e`](https://github.com/chakra-ui/chakra-ui/commit/035d5726e28396ef487b9801d7e2fa57677c703c),
+  [`96139067d`](https://github.com/chakra-ui/chakra-ui/commit/96139067daa4b9a606b60c73f28a88ccd99d983b)]:
+  - @chakra-ui/styled-system@1.9.0
+  - @chakra-ui/react@1.3.5
+
 ## 1.0.18
 
 ### Patch Changes

@@ -1,5 +1,32 @@
 # Change Log
 
+## 1.1.4
+
+### Patch Changes
+
+- [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)
+  [#3583](https://github.com/chakra-ui/chakra-ui/pull/3583) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - - Refactor arrow
+  components to use `data-popper-arrow` and `data-popper-arrow-inner` to define
+  the arrow elements. This is used within the modifiers to update the arrow
+  styles/position positioning.
+
+  - Change `arrowSize` and `arrowShadowColor` to use CSS custom properties
+    instead of passing it to `usePopper`.
+
+  - Update component themes to use `--popper-arrow-bg` to set the background for
+    the popper's arrow element.
+
+- Updated dependencies
+  [[`7151298ee`](https://github.com/chakra-ui/chakra-ui/commit/7151298ee1cd024a03c86f2f03202db58f3d0c74),
+  [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b),
+  [`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
+  - @chakra-ui/popper@2.0.0
+  - @chakra-ui/utils@1.4.0
+  - @chakra-ui/visually-hidden@1.0.6
+  - @chakra-ui/hooks@1.1.6
+  - @chakra-ui/portal@1.1.3
+
 ## 1.1.3
 
 ### Patch Changes

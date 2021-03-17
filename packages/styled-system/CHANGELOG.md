@@ -1,5 +1,28 @@
 # Change Log
 
+## 1.9.0
+
+### Minor Changes
+
+- [`035d5726e`](https://github.com/chakra-ui/chakra-ui/commit/035d5726e28396ef487b9801d7e2fa57677c703c)
+  [#3529](https://github.com/chakra-ui/chakra-ui/pull/3529) Thanks
+  [@callum-mellorreed-privitar](https://github.com/callum-mellorreed-privitar)! -
+  Add support for textStyle and layerStyle theme type generation to
+  @chakra-ui/cli
+
+### Patch Changes
+
+- [`96139067d`](https://github.com/chakra-ui/chakra-ui/commit/96139067daa4b9a606b60c73f28a88ccd99d983b)
+  [#3551](https://github.com/chakra-ui/chakra-ui/pull/3551) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - - Fix: issue where RTL
+  property keys are incorrect due to `config.property` mutation.
+  - Fix: change `mx` and `px` to use logical properties. Instead of mapping to
+    `marginLeft` and `marginRight`, it maps to `marginInlineStart` and
+    `marginInlineEnd`. Same for `px`
+- Updated dependencies
+  [[`91ef14839`](https://github.com/chakra-ui/chakra-ui/commit/91ef148397187010804eb8f30307d2ec94c32c5b)]:
+  - @chakra-ui/utils@1.4.0
+
 ## 1.8.0
 
 ### Minor Changes
